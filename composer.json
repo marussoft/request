@@ -1,0 +1,26 @@
+{
+    "name": "marussia/request",
+    "description": "Marussia request",
+    "license": "MIT",
+    "keywords": [
+        "request"
+    ],
+    "authors": [
+        {
+            "name": "Mikhail Ilinsky",
+            "email": "mail@milinsky.ru"
+        }
+    ],
+    "support": {
+        "docs": "https://docs.marussia.org/request/"
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Marussia\\Request\\": "src/"
+        }
+    }
+}
